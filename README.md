@@ -2,6 +2,11 @@
 
 <div align="center">
 
+<img src="apps/web/public/logo.svg" alt="PROOFRAIL Logo" width="120" height="120" />
+
+<br/>
+<br/>
+
 ![PROOFRAIL](https://img.shields.io/badge/PROOFRAIL-Evidence--to--Settlement-3b82f6?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIj48cGF0aCBkPSJNMTIgMjJzOC00IDgtMTBWNWwtOC0zLTggM3Y3YzAgNiA4IDEwIDggMTB6Ii8+PC9zdmc+)
 ![Stellar](https://img.shields.io/badge/Stellar-Soroban-7c3aed?style=for-the-badge&logo=stellar&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-no__std-f97316?style=for-the-badge&logo=rust&logoColor=white)
