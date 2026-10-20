@@ -1,11 +1,7 @@
-<div align="center">
-
 <h1>
-  <img src="apps/web/public/logo.svg" alt="PROOFRAIL Logo" width="48" height="48" style="vertical-align:middle; margin-right:12px" />
+  <img src="apps/web/public/logo.svg" alt="PROOFRAIL Logo" width="72" height="72" style="vertical-align:middle; margin-right:16px" />
   PROOFRAIL
 </h1>
-
-<br/>
 
 ![Stellar](https://img.shields.io/badge/Stellar-Soroban-7c3aed?style=for-the-badge&logo=stellar&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-no__std-f97316?style=for-the-badge&logo=rust&logoColor=white)
@@ -16,8 +12,6 @@
 **Conditional escrow on Stellar. Evidence-first. No database. No admin keys.**
 
 [Live Demo](https://github.com/Proof-Rail/PR) · [Contract API](docs/CONTRACT_API.md) · [Architecture](docs/ARCHITECTURE.md) · [Deployment](docs/DEPLOYMENT.md)
-
-</div>
 
 ---
 
