@@ -1,10 +1,11 @@
 <div align="center">
 
-<img src="apps/web/public/logo.svg" alt="" width="50" height="50" />
-&nbsp;
-<strong style="font-size:2em">PROOFRAIL</strong>
+<h1>
+  <img src="apps/web/public/logo.svg" alt="PROOFRAIL Logo" width="48" height="48" style="vertical-align:middle; margin-right:12px" />
+  PROOFRAIL
+</h1>
 
-<br/><br/>
+<br/>
 
 ![Stellar](https://img.shields.io/badge/Stellar-Soroban-7c3aed?style=for-the-badge&logo=stellar&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-no__std-f97316?style=for-the-badge&logo=rust&logoColor=white)
