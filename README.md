@@ -4,8 +4,6 @@
 
 PROOFRAIL lets two or more parties create conditional escrow agreements where funds are released, refunded, or split only after verifiable evidence is submitted and approved. Evidence files stay off-chain; their SHA-256 hashes are committed on-chain. A designated verifier attests to those hashes, and a Soroban smart contract moves the money — with **no database**, **no admin key** that can drain the escrow, and **no trusted intermediary**.
 
-> ⚠️ **Status: experimental, testnet only.** Do not use with real funds until the contract has been independently audited and mainnet-deployed. See [Project Status](#project-status).
-
 ---
 
 ## Table of Contents
@@ -494,7 +492,6 @@ Interactive docs are also available in the running app at `/docs`.
 | Dashboard always empty | Low | The contract has no per-account agreement index. The dashboard shows empty state until an off-chain indexer is added. |
 | Dispute not linked in UI | Low | Disputes are keyed by dispute ID; no agreement→dispute reverse lookup exists yet. |
 | Docs sub-pages missing | Low | `/docs/quick-start`, `/docs/architecture`, etc. link from the docs index but have no routes yet. |
-| No audit | Critical for mainnet | Testnet assets have no monetary value. Do not deploy to mainnet without an independent audit. |
 
 ---
 
@@ -515,9 +512,3 @@ For significant changes, open an issue first to discuss the approach.
 ## License
 
 MIT — see [LICENSE](LICENSE).
-
----
-
-## Disclaimer
-
-This is experimental software targeting Stellar Testnet. Testnet assets have no monetary value. Do not deploy to mainnet or use with real funds until the contract has been independently audited, all known gaps are resolved, and you have thoroughly tested your specific deployment.
