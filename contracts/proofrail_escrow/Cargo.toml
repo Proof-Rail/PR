@@ -1,0 +1,16 @@
+[package]
+name = "proofrail_escrow"
+version = "0.1.0"
+edition = "2021"
+description = "PROOFRAIL Escrow & Agreement Contract"
+license = "MIT"
+repository = "https://github.com/proofrail/proofrail"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+soroban-sdk = "22.0.0"
+
+[dev-dependencies]
+soroban-sdk = { version = "22.0.0", features = ["testutils"] }

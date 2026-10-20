@@ -1,0 +1,31 @@
+{
+  "name": "proofrail",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "contracts/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=apps/web",
+    "build": "npm run build:shared && npm run build:sdk && npm run build:web",
+    "build:shared": "npm run build --workspace=packages/shared",
+    "build:sdk": "npm run build --workspace=packages/sdk",
+    "build:web": "npm run build --workspace=apps/web",
+    "test": "npm run test --workspaces",
+    "lint": "npm run lint --workspaces",
+    "contracts:build": "cargo build --release --target wasm32-unknown-unknown --workspace",
+    "contracts:test": "cargo test --workspace",
+    "sdk:build": "npm run build --workspace=packages/sdk",
+    "web:dev": "npm run dev --workspace=apps/web",
+    "web:build": "npm run build --workspace=apps/web",
+    "web:lint": "npm run lint --workspace=apps/web"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
