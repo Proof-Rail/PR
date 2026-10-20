@@ -1,13 +1,11 @@
-# PROOFRAIL
-
 <div align="center">
 
-<img src="apps/web/public/logo.svg" alt="PROOFRAIL Logo" width="120" height="120" />
+<img src="apps/web/public/logo.svg" alt="" width="50" height="50" />
+&nbsp;
+<strong style="font-size:2em">PROOFRAIL</strong>
 
-<br/>
-<br/>
+<br/><br/>
 
-![PROOFRAIL](https://img.shields.io/badge/PROOFRAIL-Evidence--to--Settlement-3b82f6?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIj48cGF0aCBkPSJNMTIgMjJzOC00IDgtMTBWNWwtOC0zLTggM3Y3YzAgNiA4IDEwIDggMTB6Ii8+PC9zdmc+)
 ![Stellar](https://img.shields.io/badge/Stellar-Soroban-7c3aed?style=for-the-badge&logo=stellar&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-no__std-f97316?style=for-the-badge&logo=rust&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-14-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
@@ -16,13 +14,11 @@
 
 **Conditional escrow on Stellar. Evidence-first. No database. No admin keys.**
 
-[Live Demo](https://github.com/Proof-Rail/PR) · [Documentation](/docs) · [Contract API](docs/CONTRACT_API.md) · [Architecture](docs/ARCHITECTURE.md)
+[Live Demo](https://github.com/Proof-Rail/PR) · [Contract API](docs/CONTRACT_API.md) · [Architecture](docs/ARCHITECTURE.md) · [Deployment](docs/DEPLOYMENT.md)
 
 </div>
 
 ---
-
-> **Evidence-to-settlement protocol on Stellar / Soroban.**
 
 PROOFRAIL lets two or more parties create conditional escrow agreements where funds are released, refunded, or split only after verifiable evidence is submitted and approved. Evidence files stay off-chain; their SHA-256 hashes are committed on-chain. A designated verifier attests to those hashes, and a Soroban smart contract moves the money — with **no database**, **no admin key** that can drain the escrow, and **no trusted intermediary**.
 
